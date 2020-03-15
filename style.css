@@ -1,6 +1,6 @@
 body
 {
-font-family: 'calibri';
+font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 margin:0px;
    color:#36454f;
   overflow:hidden;
@@ -76,7 +76,7 @@ html{overflow-x:hidden;font-size:14px;}
 
 .wedge
 {
-height:6.5rem;	
+height:6.55rem;	
 	
 	
 }
@@ -275,7 +275,7 @@ button:disabled
 .abouttext h1
 {
 	margin-bottom:0.1rem;
-	text-align:center;
+	
 	color:rgb(80,200,190);
 	
 }
@@ -361,12 +361,33 @@ margin-left:-5%;
     overflow: hidden;
  
 }
+.funding{
+	display:flex;
+	width:80%;
+	margin:auto;
+	justify-content:space-around;
+}
 
-.fundingoptions
+.fundingimage
 {
 	
+	flex-basis:40rem;
+	width:20%;
+	height:20%;
+	align-self:center;
+	padding-right:0 3rem;
+	border-radius:10px 10px 10px 10px;
+	border-collapse: separate; 
+	perspective: 1px;
+	overflow: hidden;
+	
+}
+.fundingoptions
+{
+	flex-basis:40rem;
+	
 	font-size:2em;
-	text-align:center;
+	text-align:left;
 }
 
 h3 
@@ -419,6 +440,8 @@ border-radius:1rem;
 {
 	 margin:0.5rem;margin-left:1rem;display:inline;color:rgb(68,179,170);
 }
+
+.contactimage{flex-basis:30rem;width:30rem;height:auto;align-self:flex-end;border-radius:10px;}
 
 footer{
 	background-color:black;
@@ -511,7 +534,11 @@ display:block;font-size:2rem;text-align:right;color:rgb(68,179,170);margin:0.5re
 	.Text{width:100%;padding:0px;}
 	.Image{width:100%;margin-top:0px;margin-bottom:3rem;}
 	.content{width:80%;margin-right:10%;}
+	.fundingimage{display:none;}
 }
+
+@media only screen and (max-width:1200px)
+{ .contactimage{display:none;}}
 
 @media only screen and (max-width:900px)
 {

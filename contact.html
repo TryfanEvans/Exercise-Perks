@@ -38,10 +38,11 @@
 	<div class = 'wedge'></div>
 	<div class = 'mobilewedge'></div>
 	
-	
+
 	<div style = width:97%;margin-left:1.5%;margin-bottom:10rem;>
-	
-		<h1 style = 'text-align:center; color:rgb(68,179,170);font-size:4rem;margin:0;margin-top:4rem;font-family:"calibri";font-weight:lighter;'> Contact</h1> 
+		<div style = display:flex;width:100rem;margin:auto;justify-content:space-around;max-width:90%;>
+		<div style = flex-basis:40rem;>
+		<h1 style = 'text-align:center; color:rgb(68,179,170);font-size:4rem;margin:0;margin-top:4rem;font-weight:lighter;'> Contact</h1> 
 		
 		<p style = 'text-align:center;' class = 'contactinfo'> 3/30 Victoria Street, Robe SA 5276 </p>
 		
@@ -64,11 +65,14 @@
 			</div>
 			<div style = 'clear:both;'> </div>
 		</div>
-			
-		<h1 style = 'text-align:center; color:rgb(68,179,170);font-size:4rem;margin:0;margin-top:3rem;margin-bottom:3rem;font-family:"calibri";font-weight:lighter;'> Location </h1> 
-			
+			</div>
+			<img src = 'client-9.JPG' class = 'contactimage'>
+			</div>
+			<div style = 'width: 40%; margin-left:30%;'>
+		<h1 style = 'color:rgb(68,179,170);font-size:4rem;margin:0;margin-top:3rem;margin-bottom:3rem;font-weight:lighter;'> Location </h1> 
+			</div>
 		
-			  <div id = "map" style = "width: 80%; height: 580px; margin-left:10%;"></div>
+			  <div id = "map" style = "width: 40%; height: 290px; margin-left:30%;margin-auto;"></div>
       <script>
          // Creating map options
          var mapOptions = {
@@ -91,7 +95,7 @@
          marker.bindPopup('Exercise Perks').openPopup();
          marker.addTo(map); // Adding marker to the map
       </script>
-			<div style = 'width: 80%; height: 2rem; margin-left:10%;background-color:rgb(48,159,150);text-decoration:none;'>
+			<div style = 'width: 40%; height: 2rem; margin-left:30%;background-color:rgb(48,159,150);text-decoration:none;margin-auto;'>
 			 
 		<a  href = 'www.openstreetmap.org/copyright' style = float:right;margin-top:0.5rem;margin-right:0.5rem;color:white;text-decoration:none;> © OpenStreetMap contributors </a>
 		<p style = float:left;margin-top:0.5rem;margin-left:0.5rem;color:white;text-decoration:none;> 3/30 Victoria Street, Robe, SA 5276 </p>
