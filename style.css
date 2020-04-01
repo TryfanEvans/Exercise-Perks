@@ -441,7 +441,7 @@ border-radius:1rem;
 	 margin:0.5rem;margin-left:1rem;display:inline;color:rgb(68,179,170);
 }
 
-.contactimage{flex-basis:30rem;width:30rem;height:auto;align-self:flex-end;border-radius:10px;}
+.contactimage{flex-basis:30rem;width:40rem;height:auto;align-self:flex-end;border-radius:10px;}
 
 footer{
 	background-color:black;
