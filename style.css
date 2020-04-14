@@ -10,7 +10,7 @@ margin:0px;
 
 html{overflow-x:hidden;font-size:14px;}
 
-img { height: auto; }
+
 
 .nav
 {
@@ -651,4 +651,6 @@ font-size:10px;
   }
    
 }
+
+img { height: auto; }
 
