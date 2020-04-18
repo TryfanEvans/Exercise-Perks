@@ -298,6 +298,7 @@ button:disabled
 	width:100%;
 	margin-top:3rem;
 	border-radius:0.7rem;
+	height:auto;
 }
 
 .aboutimage:hover
@@ -345,6 +346,8 @@ margin-left:-5%;
 	color:rgb(80,200,190);
 	
 	font-size:2rem;
+	
+	
 }
 
 .Image
