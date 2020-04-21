@@ -301,6 +301,13 @@ button:disabled
 	height:auto;
 }
 
+.aboutimg_mobile {
+    margin:auto;
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+	
 .aboutimage:hover
 {width:110%;
 margin-left:-5%;
