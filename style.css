@@ -655,6 +655,8 @@ font-size:10px;
 }
 .aboutimg_mobile {
     margin:auto;
+	margin-bottom:1rem;
+	border-radius:0.2rem;
     width: 100%; 
     max-width: 100%; 
     height: auto;
