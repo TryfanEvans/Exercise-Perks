@@ -298,16 +298,8 @@ button:disabled
 	width:100%;
 	margin-top:3rem;
 	border-radius:0.7rem;
-	height:auto;
 }
 
-.aboutimg_mobile {
-    margin:auto;
-    width: 100%; 
-    max-width: 100%; 
-    height: auto;
-    object-fit: cover;
-	
 .aboutimage:hover
 {width:110%;
 margin-left:-5%;
@@ -353,8 +345,6 @@ margin-left:-5%;
 	color:rgb(80,200,190);
 	
 	font-size:2rem;
-	
-	
 }
 
 .Image
@@ -450,6 +440,8 @@ border-radius:1rem;
 {
 	 margin:0.5rem;margin-left:1rem;display:inline;color:rgb(68,179,170);
 }
+
+img { height: auto; }
 
 .contactimage{flex-basis:30rem;width:40rem;height:auto;align-self:flex-end;border-radius:10px;}
 
