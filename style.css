@@ -531,7 +531,7 @@ display:block;font-size:2rem;text-align:right;color:rgb(68,179,170);margin:0.5re
 	.aboutimages{display:none;}
 	.aboutimage{width:400px;flex-basis:400px;flex-grow:1;margin-right:2%;margin-left:2%;}
 	.aboutimage:hover{width:400px;margin-right:2%;margin-left:2%;}
-	.mobileimages{display:flex;}
+	.mobileimages{display:block;}
 	.abouttext{width:90%;flex-basis:90%;}
 	.Text{width:100%;padding:0px;}
 	.Image{width:100%;margin-top:0px;margin-bottom:3rem;}
