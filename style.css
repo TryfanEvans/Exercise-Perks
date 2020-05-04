@@ -1,6 +1,11 @@
+@font-face {
+ font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-display:swap;
+}
+
 body
 {
-font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+
 margin:0px;
    color:#36454f;
   overflow:hidden;
