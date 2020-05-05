@@ -14,7 +14,7 @@ margin:0px;
 	font-display: swap;
 }
 
-html{overflow:hidden;font-size:14px;width:100%;}
+html{overflow-x:hidden;font-size:14px;width:100%;}
 
 
 
